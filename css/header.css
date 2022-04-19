@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 2.34375rem 0;
+}
+
+.header__logo {
+  margin-right: 2rem;
+}
+
+.header__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__pesquisa {
+  width: 393px;
+  height: 40px;
+  border: none;
+  border-radius: 1.25rem;
+  background-color: #F5F5F5;
+  background-image: url(../images/lupa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x:  356px;
+}
+
+.header__pesquisa::placeholder {
+  color: #A2A2A2;
+  padding: 0.75rem 0 0.75rem 1rem;
+}
+
+.header__login {
+  width: 182px;
+  height: 51px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #2A7AE4;
+  border: 1px solid #2A7AE4;
+  background: none;
+}
