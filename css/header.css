@@ -15,20 +15,24 @@
 }
 
 .header__pesquisa {
-  width: 393px;
-  height: 40px;
+  width: calc(393px - 1.74625rem);
+  padding: 0.75rem 0.74625rem 0.75rem 1rem;
+  height: calc(40px - 1.5rem);
   border: none;
   border-radius: 1.25rem;
   background-color: #F5F5F5;
   background-image: url(../images/lupa.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-position-x:  356px;
+  background-position-x:  364.01px;
+}
+
+.header__pesquisa:focus {
+  background-image: none;
 }
 
 .header__pesquisa::placeholder {
   color: #A2A2A2;
-  padding: 0.75rem 0 0.75rem 1rem;
 }
 
 .header__login {
@@ -39,4 +43,10 @@
   color: #2A7AE4;
   border: 1px solid #2A7AE4;
   background: none;
+}
+
+.header__login:hover {
+  background: #D4E4FA;
+  cursor: pointer;
+  transition: ease-out 300ms;
 }
